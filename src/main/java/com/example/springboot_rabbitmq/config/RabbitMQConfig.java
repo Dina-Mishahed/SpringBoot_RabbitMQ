@@ -21,7 +21,7 @@ public class RabbitMQConfig {
     //spring bean for rabbitmq Queue
     @Bean
     public Queue queue(){
-        return new Queue("dina");
+        return new Queue(queue);
     }
 
     @Bean
